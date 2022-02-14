@@ -65,7 +65,7 @@ function addTaskElement(task){
     li.innerHTML = `
         <input type="checkbox" id="${task.id}" class="checkbox" data-id="${task.id}" ${task.completed ? 'checked' :''}></input>
         <label for="${task.id}">${task.title}</label>
-        <img style="height:20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAVedDEyU2J4dMfGAJqvVf4ApCStVvPx4AaFBIDjY_qUZLtZ13B4x9ThUMHoO_4TeTODU&usqp=CAU" class="delete" data-id="${task.id}">
+        <img style="height:20px" src="https://i.pinimg.com/564x/36/ac/26/36ac268abe600dc9f5d0212e368fe60e--kids-numbers-eps.jpg" class="delete" data-id="${task.id}">
     `;
     // console.log(li);
     // taskList.appendChild(element);
